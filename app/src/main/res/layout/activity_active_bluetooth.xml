@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:contentDescription="@string/active_bluetooth_page_description" app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/active_bluetooth_background" />
+    <TextView android:id="@+id/textViewUsernameLabel" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/username" android:textColor="@color/black" android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.092" />
+    <TextView android:id="@+id/textViewPhoneLabel" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:layout_marginBottom="524dp"
+        android:text="@string/phone_number" android:textColor="@color/black" android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUsername" app:layout_constraintVertical_bias="0.0" />
+    <TextView android:id="@+id/textViewEmailAddressLabel" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:layout_marginBottom="364dp"
+        android:text="@string/email_address" android:textColor="@color/black" android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPhone" app:layout_constraintVertical_bias="0.0" />
+    <Button android:id="@+id/updateButton" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="40dp" android:layout_marginBottom="292dp" android:text="@string/update_button"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmailAddress" app:layout_constraintVertical_bias="0.0" />
+    <TextView android:id="@+id/textViewUsername" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:textColor="@color/black" android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUsernameLabel" app:layout_constraintVertical_bias="0.0" />
+    <TextView android:id="@+id/textViewPhone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:textColor="@color/black" android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPhoneLabel" app:layout_constraintVertical_bias="0.0" />
+    <TextView android:id="@+id/textViewEmailAddress" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:layout_marginBottom="396dp" android:textColor="@color/black"
+        android:textSize="20sp" app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmailAddressLabel" app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
