@@ -3,3 +3,5 @@
 ## Description
 
 This is the original application rewritten in Kotlin with updated API.
+
+Note: this application cannot be fully functional without the Bluetooth Beacon.
