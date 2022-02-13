@@ -1,4 +1,4 @@
-# Global PBL 2021 - Automatic Visitor Tracking System Android Application
+# S.I.T Global PBL 2021 - Automatic Visitor Tracking System Android Application
 
 ## Description
 
